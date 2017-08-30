@@ -20,6 +20,6 @@ module Jekyll
       end
 
     end
-    Liquid::Template.register_tag('share', Jekyll::Share::SocialTag)
+    Liquid::Template.register_tag('sharelinks', Jekyll::Share::SocialTag)
   end
 end
