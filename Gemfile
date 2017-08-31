@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in jekyll-share.gemspec
+# Specify your gem's dependencies in jekyll-sharelinks.gemspec
 gemspec

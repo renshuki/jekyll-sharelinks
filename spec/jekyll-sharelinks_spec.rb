@@ -1,8 +1,8 @@
 require "spec_helper"
 
-RSpec.describe Jekyll::Share do
+RSpec.describe Jekyll::Sharelinks do
   it "has a version number" do
-    expect(Jekyll::Share::VERSION).not_to be nil
+    expect(Jekyll::Sharelinks::VERSION).not_to be nil
   end
 
   it "does something useful" do

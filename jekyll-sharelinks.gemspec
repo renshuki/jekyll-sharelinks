@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-share/version'
+require 'jekyll-sharelinks/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-share"
-  spec.version       = Jekyll::Share::VERSION
+  spec.name          = "jekyll-sharelinks"
+  spec.version       = Jekyll::Sharelinks::VERSION
   spec.authors       = ["renshuki"]
   spec.email         = ["renshuki@mail.com"]
 

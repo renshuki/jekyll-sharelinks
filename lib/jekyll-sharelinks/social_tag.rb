@@ -1,5 +1,5 @@
 module Jekyll
-  module Share
+  module Sharelinks
     class SocialTag < Liquid::Tag
 
       def render(context)
@@ -20,6 +20,6 @@ module Jekyll
       end
 
     end
-    Liquid::Template.register_tag('sharelinks', Jekyll::Share::SocialTag)
+    Liquid::Template.register_tag('sharelinks', Jekyll::Sharelinks::SocialTag)
   end
 end

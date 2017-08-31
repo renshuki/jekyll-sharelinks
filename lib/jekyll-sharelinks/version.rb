@@ -1,5 +1,5 @@
 module Jekyll
-  module Share
+  module Sharelinks
     VERSION = "0.1.0"
   end
 end
