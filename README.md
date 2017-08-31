@@ -20,9 +20,25 @@ Or install it yourself as:
 
     $ gem install jekyll-sharelinks
 
+## Requirements
+
+You need to define few configuration variables in your `_config.yml` file. A Facebook App ID is required and a Twitter account is optional (*Twitter account is used as referer for the shared link.*).
+
+> To get a Facebook app_id checkout [this link](https://developers.facebook.com/docs/apps/register).
+
+```ruby
+
+url: "http://example.com" # the base hostname & protocol for your site
+
+facebook:
+  app_id: 0123456789
+
+twitter_username: john_doe
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+Just add {% sharelinks %} tag wherever you want to add share links for social networks :)
 
 ## Development
 
