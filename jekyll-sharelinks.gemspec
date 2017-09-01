@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["renshuki@mail.com"]
 
   spec.summary       = %q{Liquid tag for displaying social networks share links.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/renshuki/jekyll-sharelinks"
   spec.license       = "MIT"
 
   spec.required_ruby_version = '>= 1.9.3'
