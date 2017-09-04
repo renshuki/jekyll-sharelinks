@@ -38,6 +38,10 @@ twitter_username: john_doe
 
 Just add {% sharelinks %} tag wherever you want to add share links for social networks :)
 
+> By adding {% sharelinks %} liquid tag to your website, Facebook, Twitter and Google+ social networks links will show up   
+
+*I think to add furthermore social networks links in the future with a modular way to add or remove them*  
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jekyll-sharelinks. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
